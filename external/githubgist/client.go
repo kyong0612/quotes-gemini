@@ -2,6 +2,7 @@ package githubgist
 
 import (
 	"context"
+	"fmt"
 	"os"
 
 	"github.com/google/go-github/v57/github"
@@ -16,8 +17,14 @@ type Client interface {
 }
 
 func NewClient() (Client, error) {
+
+	token := os.Getenv("GIST_TOKEN")
+	if token == "" {
+		return nil, fmt.Errorf("GITHUB GIST API TOKEN is empty")
+	}
+
 	return client{
-		github.NewClient(nil).WithAuthToken(os.Getenv("GIST_TOKEN")),
+		github.NewClient(nil).WithAuthToken(token),
 	}, nil
 }
 

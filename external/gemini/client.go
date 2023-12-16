@@ -20,7 +20,12 @@ type Client interface {
 }
 
 func NewClient(ctx context.Context) (Client, error) {
-	c, err := genai.NewClient(ctx, option.WithAPIKey(os.Getenv("GEMINI_API_KEY")))
+	apiKey := os.Getenv("GEMINI_API_KEY")
+	if apiKey == "" {
+		return nil, fmt.Errorf("GEMINI API KEY is empty")
+	}
+
+	c, err := genai.NewClient(ctx, option.WithAPIKey(apiKey))
 	if err != nil {
 		return nil, err
 	}
