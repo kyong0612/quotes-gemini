@@ -1,0 +1,2 @@
+- gemini API tutorial
+  - <https://ai.google.dev/tutorials/go_quickstart?hl=ja>
