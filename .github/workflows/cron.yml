@@ -1,11 +1,15 @@
 # ワークフロー名
 name: update gist
+env:
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
-jobs:
+jobs:      
   update-gist:
     runs-on: ubuntu-latest
 
