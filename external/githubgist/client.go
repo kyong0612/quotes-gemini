@@ -17,7 +17,7 @@ type Client interface {
 
 func NewClient() (Client, error) {
 	return client{
-		github.NewClient(nil).WithAuthToken(os.Getenv("GITHUB_TOKEN")),
+		github.NewClient(nil).WithAuthToken(os.Getenv("GIST_TOKEN")),
 	}, nil
 }
 
