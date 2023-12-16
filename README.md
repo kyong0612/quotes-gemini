@@ -23,3 +23,7 @@ direnv allow .
   - <https://ai.google.dev/tutorials/setup?hl=ja>
 - github personal access token
   - <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
+
+## see generated quote
+
+- <https://gist.github.com/kyong0612/6016b8dd4f5d61f9cfcbbc8443d55260>
