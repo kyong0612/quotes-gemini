@@ -27,4 +27,15 @@ func main() {
 
 	fmt.Println(quote)
 
+	// post to github gist
+	githubgist, err := githubgist.NewClient()
+	if err != nil {
+		log.Fatal(fmt.Errorf("failed to create githubgist client: %w", err))
+	}
+
+	if err := githubgist.EditGist(ctx, "6016b8dd4f5d61f9cfcbbc8443d55260", "quote.md", quote); err != nil {
+		log.Fatal(fmt.Errorf("failed to edit gist: %w", err))
+	}
+
+	fmt.Println("done")
 }
