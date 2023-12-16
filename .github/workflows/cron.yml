@@ -1,0 +1,21 @@
+# ワークフロー名
+name: update gist
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-go@v4
+        with:
+          go-version: '1.21.0' # The Go version to download (if necessary) and use.
+          
+      - name: run
+        run: |
+          make run
