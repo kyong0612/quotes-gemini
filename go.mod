@@ -3,7 +3,7 @@ module github.com/kyong0612/quotes-gemini
 go 1.21.0
 
 require (
-	github.com/google/generative-ai-go v0.4.0
+	github.com/google/generative-ai-go v0.5.0
 	github.com/google/go-github/v57 v57.0.0
 	google.golang.org/api v0.149.0
 )
