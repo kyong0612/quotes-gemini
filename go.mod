@@ -4,7 +4,7 @@ go 1.22.1
 
 require (
 	github.com/golangci/golangci-lint v1.56.2
-	github.com/google/generative-ai-go v0.8.0
+	github.com/google/generative-ai-go v0.10.0
 	github.com/google/go-github/v60 v60.0.0
 	golang.org/x/vuln v1.0.4
 	google.golang.org/api v0.172.0
@@ -13,6 +13,7 @@ require (
 require (
 	4d63.com/gocheckcompilerdirectives v1.2.1 // indirect
 	4d63.com/gochecknoglobals v0.2.1 // indirect
+	cloud.google.com/go v0.112.0 // indirect
 	cloud.google.com/go/ai v0.3.0 // indirect
 	cloud.google.com/go/compute v1.23.4 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
