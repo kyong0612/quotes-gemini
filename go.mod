@@ -5,7 +5,7 @@ go 1.22.2
 require (
 	github.com/golangci/golangci-lint v1.57.2
 	github.com/google/generative-ai-go v0.11.0
-	github.com/google/go-github/v60 v60.0.0
+	github.com/google/go-github/v61 v61.0.0
 	github.com/google/go-github/v61 v61.0.0
 	golang.org/x/vuln v1.1.0
 	google.golang.org/api v0.176.1
