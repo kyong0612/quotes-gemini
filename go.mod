@@ -4,7 +4,7 @@ go 1.22.3
 
 require (
 	github.com/golangci/golangci-lint v1.58.2
-	github.com/google/generative-ai-go v0.12.0
+	github.com/google/generative-ai-go v0.13.0
 	github.com/google/go-github/v62 v62.0.0
 	golang.org/x/vuln v1.1.1
 	google.golang.org/api v0.181.0
@@ -210,6 +210,7 @@ require (
 	golang.org/x/text v0.15.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.21.1-0.20240514024235-59d9797072e7 // indirect
+	google.golang.org/genproto v0.0.0-20240401170217-c3f982113cda // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240506185236-b8a5c65736ae // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240513163218-0867130af1f8 // indirect
 	google.golang.org/grpc v1.63.2 // indirect
