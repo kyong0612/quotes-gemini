@@ -19,8 +19,8 @@ cloud.google.com/go v0.62.0/go.mod h1:jmCYTdRCQuc1PHIIJ/maLInMho30T/Y0M4hTdTShOY
 cloud.google.com/go v0.65.0/go.mod h1:O5N8zS7uWy9vkA9vayVHs65eM1ubvY4h553ofrNHObY=
 cloud.google.com/go v0.114.0 h1:OIPFAdfrFDFO2ve2U7r/H5SwSbBzEdrBdE7xkgwc+kY=
 cloud.google.com/go v0.114.0/go.mod h1:ZV9La5YYxctro1HTPug5lXH/GefROyW8PPD4T8n9J8E=
-cloud.google.com/go/ai v0.5.0 h1:x8s4rDn5t9OVZvBCgtr5bZTH5X0O7JdE6zYo+O+MpRw=
-cloud.google.com/go/ai v0.5.0/go.mod h1:96VBphk70e0zdXZrbtgPuKYRZsQ3UktSUXhuojwiKA8=
+cloud.google.com/go/ai v0.6.0 h1:QWjb2UoaM15e51IMeLuIUFyWxooKOKDb66Mk47zZ2/g=
+cloud.google.com/go/ai v0.6.0/go.mod h1:6/mrRq6aJdK7MZH76ZvcMpESiAiha5aRvurmroiOrgI=
 cloud.google.com/go/auth v0.5.1 h1:0QNO7VThG54LUzKiQxv8C6x1YX7lUrzlAa1nVLF8CIw=
 cloud.google.com/go/auth v0.5.1/go.mod h1:vbZT8GjzDf3AVqCcQmqeeM32U9HBFc32vVVAbwDsa6s=
 cloud.google.com/go/auth/oauth2adapt v0.2.2 h1:+TTV8aXpjeChS9M+aTtN/TjdQnzJvmzKFt//oWu7HX4=
@@ -260,8 +260,8 @@ github.com/golangci/unconvert v0.0.0-20240309020433-c5143eacb3ed h1:IURFTjxeTfNF
 github.com/golangci/unconvert v0.0.0-20240309020433-c5143eacb3ed/go.mod h1:XLXN8bNw4CGRPaqgl3bv/lhz7bsGPh4/xSaMTbo2vkQ=
 github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
 github.com/google/btree v1.0.0/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
-github.com/google/generative-ai-go v0.13.0 h1:/c2kleSHeAdv5f2t9sSlxTwDpXBVhr9wqL3Tfg/rVqQ=
-github.com/google/generative-ai-go v0.13.0/go.mod h1:Pmy+JWGfZt1kjjKPpufz2uunTIOy+dhWA3aOIC7ub3Q=
+github.com/google/generative-ai-go v0.14.0 h1:2GwFKXui9LmG+PukQwYk9KpJUIemmQ9NJ46BV9VIw38=
+github.com/google/generative-ai-go v0.14.0/go.mod h1:hOzbW3cB5hRV2x05McOwJS4GsqSluYwejjk5tSfb6YY=
 github.com/google/go-cmdtest v0.4.1-0.20220921163831-55ab3332a786 h1:rcv+Ippz6RAtvaGgKxc+8FQIpxHgsF+HBzPyYL2cyVU=
 github.com/google/go-cmdtest v0.4.1-0.20220921163831-55ab3332a786/go.mod h1:apVn/GCasLZUVpAJ6oWAuyP7Ne7CEsQbTnc0plM3m+o=
 github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
