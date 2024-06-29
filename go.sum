@@ -19,8 +19,8 @@ cloud.google.com/go v0.62.0/go.mod h1:jmCYTdRCQuc1PHIIJ/maLInMho30T/Y0M4hTdTShOY
 cloud.google.com/go v0.65.0/go.mod h1:O5N8zS7uWy9vkA9vayVHs65eM1ubvY4h553ofrNHObY=
 cloud.google.com/go v0.115.0 h1:CnFSK6Xo3lDYRoBKEcAtia6VSC837/ZkJuRduSFnr14=
 cloud.google.com/go v0.115.0/go.mod h1:8jIM5vVgoAEoiVxQ/O4BFTfHqulPZgs/ufEzMcFMdWU=
-cloud.google.com/go/ai v0.6.0 h1:QWjb2UoaM15e51IMeLuIUFyWxooKOKDb66Mk47zZ2/g=
-cloud.google.com/go/ai v0.6.0/go.mod h1:6/mrRq6aJdK7MZH76ZvcMpESiAiha5aRvurmroiOrgI=
+cloud.google.com/go/ai v0.7.0 h1:P6+b5p4gXlza5E+u7uvcgYlzZ7103ACg70YdZeC6oGE=
+cloud.google.com/go/ai v0.7.0/go.mod h1:7ozuEcraovh4ABsPbrec3o4LmFl9HigNI3D5haxYeQo=
 cloud.google.com/go/auth v0.6.0 h1:5x+d6b5zdezZ7gmLWD1m/xNjnaQ2YDhmIz/HH3doy1g=
 cloud.google.com/go/auth v0.6.0/go.mod h1:b4acV+jLQDyjwm4OXHYjNvRi4jvGBzHWJRtJcy+2P4g=
 cloud.google.com/go/auth/oauth2adapt v0.2.2 h1:+TTV8aXpjeChS9M+aTtN/TjdQnzJvmzKFt//oWu7HX4=
@@ -260,8 +260,8 @@ github.com/golangci/unconvert v0.0.0-20240309020433-c5143eacb3ed h1:IURFTjxeTfNF
 github.com/golangci/unconvert v0.0.0-20240309020433-c5143eacb3ed/go.mod h1:XLXN8bNw4CGRPaqgl3bv/lhz7bsGPh4/xSaMTbo2vkQ=
 github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
 github.com/google/btree v1.0.0/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
-github.com/google/generative-ai-go v0.14.0 h1:2GwFKXui9LmG+PukQwYk9KpJUIemmQ9NJ46BV9VIw38=
-github.com/google/generative-ai-go v0.14.0/go.mod h1:hOzbW3cB5hRV2x05McOwJS4GsqSluYwejjk5tSfb6YY=
+github.com/google/generative-ai-go v0.15.1 h1:n8aQUpvhPOlGVuM2DRkJ2jvx04zpp42B778AROJa+pQ=
+github.com/google/generative-ai-go v0.15.1/go.mod h1:AAucpWZjXsDKhQYWvCYuP6d0yB1kX998pJlOW1rAesw=
 github.com/google/go-cmdtest v0.4.1-0.20220921163831-55ab3332a786 h1:rcv+Ippz6RAtvaGgKxc+8FQIpxHgsF+HBzPyYL2cyVU=
 github.com/google/go-cmdtest v0.4.1-0.20220921163831-55ab3332a786/go.mod h1:apVn/GCasLZUVpAJ6oWAuyP7Ne7CEsQbTnc0plM3m+o=
 github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
@@ -956,8 +956,6 @@ google.golang.org/genproto v0.0.0-20200618031413-b414f8b61790/go.mod h1:jDfRM7Fc
 google.golang.org/genproto v0.0.0-20200729003335-053ba62fc06f/go.mod h1:FWY/as6DDZQgahTzZj3fqbO1CbirC29ZNUFHwi0/+no=
 google.golang.org/genproto v0.0.0-20200804131852-c06518451d9c/go.mod h1:FWY/as6DDZQgahTzZj3fqbO1CbirC29ZNUFHwi0/+no=
 google.golang.org/genproto v0.0.0-20200825200019-8632dd797987/go.mod h1:FWY/as6DDZQgahTzZj3fqbO1CbirC29ZNUFHwi0/+no=
-google.golang.org/genproto v0.0.0-20240617180043-68d350f18fd4 h1:CUiCqkPw1nNrNQzCCG4WA65m0nAmQiwXHpub3dNyruU=
-google.golang.org/genproto v0.0.0-20240617180043-68d350f18fd4/go.mod h1:EvuUDCulqGgV80RvP1BHuom+smhX4qtlhnNatHuroGQ=
 google.golang.org/genproto/googleapis/api v0.0.0-20240610135401-a8a62080eff3 h1:QW9+G6Fir4VcRXVH8x3LilNAb6cxBGLa6+GM4hRwexE=
 google.golang.org/genproto/googleapis/api v0.0.0-20240610135401-a8a62080eff3/go.mod h1:kdrSS/OiLkPrNUpzD4aHgCq2rVuC/YRxok32HXZ4vRE=
 google.golang.org/genproto/googleapis/rpc v0.0.0-20240617180043-68d350f18fd4 h1:Di6ANFilr+S60a4S61ZM00vLdw0IrQOSMS2/6mrnOU0=
