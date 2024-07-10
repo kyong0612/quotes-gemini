@@ -6,6 +6,7 @@ require (
 	github.com/golangci/golangci-lint v1.59.1
 	github.com/google/generative-ai-go v0.16.0
 	github.com/google/go-github/v62 v62.0.0
+	github.com/google/go-github/v63 v63.0.0
 	golang.org/x/vuln v1.1.2
 	google.golang.org/api v0.186.0
 )
