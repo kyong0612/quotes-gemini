@@ -30,7 +30,7 @@ func NewClient(ctx context.Context) (Client, error) {
 		return nil, err
 	}
 
-	modal := c.GenerativeModel("gemini-1.0-pro")
+	modal := c.GenerativeModel("gemini-1.5-flash")
 
 	return &client{c, modal}, nil
 }
