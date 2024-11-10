@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kyong0612/quotes-gemini/external/gemini"
-	"github.com/kyong0612/quotes-gemini/external/githubgist"
+	"github.com/kyong0612/quotes-gemini/internal/gemini"
+	"github.com/kyong0612/quotes-gemini/internal/githubgist"
 	"github.com/kyong0612/quotes-gemini/prompt"
 )
 
