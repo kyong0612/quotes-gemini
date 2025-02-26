@@ -1,6 +1,6 @@
 module github.com/kyong0612/quotes-gemini
 
-go 1.23.1
+go 1.24.0
 
 require (
 	github.com/golangci/golangci-lint v1.60.3
