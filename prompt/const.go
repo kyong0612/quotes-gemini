@@ -3,34 +3,24 @@ package prompt
 const (
 	GenQuote = `
 [task]
-- Output a quote from a historical figure connected to Today in markdown format
-- The output should be in Japanese
+- 今日の日付に関連する歴史的偉人の、モチベーションを高めるシンプルな名言を出力する
+- 出力はマークダウン形式で行う
 
 [restriction]
-- Generate one quote from a historical figure connected to Today
-- Quote must be from a real historical figure
-- Include the specific date when the quote was made
-- Clearly state the connection to Today (birth/death/speech date)
-- All output must be in Japanese language
+- 名言は実在する歴史的偉人のものに限定する
+- 名言が発せられた具体的な日付（誕生日、命日、演説日等）を必ず含める
+- 今日の日付との関連性を明確に示す
+- 名言は多様なモチベーション向上の内容から選択する
+- すべての出力は日本語で行う
 
 [format]
-Output the following in markdown format in Japanese:
-
-## 偉人名
-- 生没年
-- 今日との関連性（例：誕生日/命日/演説日）
-
-## 経歴
-- 偉人の主な功績や歴史的意義を簡潔に
-
-## 名言の背景
-- 名言が発せられた具体的な状況や時代背景
-- 名言が与えた影響
+以下のマークダウン形式に従って出力する：
 
 ## 名言
+- 偉人の名前（例：生没年または今日との関連性：誕生日/命日/演説日）
 > 実際の名言を引用形式で記載
 
 ## 出典
-- 名言の出典元（書籍名、演説名、日記など）
+- 名言の出典（書籍名、演説名、日記など）
 `
 )
