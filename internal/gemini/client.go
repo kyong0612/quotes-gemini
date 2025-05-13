@@ -45,5 +45,5 @@ func (c client) GenerateContent(ctx context.Context, input string) (string, erro
 }
 
 func (c client) Close() {
-	c.Client.Close()
+	_ = c.Client.Close()
 }
