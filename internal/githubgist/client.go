@@ -29,7 +29,7 @@ func NewClient() (Client, error) {
 }
 
 func (c client) EditGist(ctx context.Context, id string, fileName, content string) error {
-	_, _, err := c.Client.Gists.Edit(ctx, "6016b8dd4f5d61f9cfcbbc8443d55260", &github.Gist{
+	_, _, err := c.Gists.Edit(ctx, "6016b8dd4f5d61f9cfcbbc8443d55260", &github.Gist{
 		Files: map[github.GistFilename]github.GistFile{
 			github.GistFilename(fileName): {
 				Content: github.String(content),

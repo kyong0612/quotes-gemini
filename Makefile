@@ -4,6 +4,6 @@ run:
 
 .PHONY: lint
 lint:
-	go run github.com/golangci/golangci-lint/cmd/golangci-lint run --fix
-	go run golang.org/x/vuln/cmd/govulncheck ./...
+	go tool golangci-lint run --fix
+	go tool govulncheck ./...
 
