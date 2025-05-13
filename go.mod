@@ -5,6 +5,7 @@ go 1.24.0
 require (
 	github.com/google/generative-ai-go v0.20.1
 	github.com/google/go-github/v62 v62.0.0
+	github.com/google/go-github/v72 v72.0.0
 	google.golang.org/api v0.232.0
 )
 
